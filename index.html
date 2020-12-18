@@ -1,25 +1,151 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | VRExperience</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">VRExperience</div>
-      </div>
-    </div>
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Business 2</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="logo.png" alt=""> 
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">Mission</a>
+                    </li>
+                    <li>
+                      <a href="#">Digital Focus</a>
+                    </li>
+                    <li>
+                      <a href="#">Experience</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact</a>
+                    </li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+	<!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Dramatically Engage</h1>
+                <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+            </div>
+        </div>
+    </header>
+
+	<!-- Content 1 -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="">
+                </div>
+                <div class="col-sm-6">
+                	<h2 class="section-header">Mission</h2>
+                	<p class="lead text-muted">As a diverse network of creatives, we value the connection between not only people, but their ideas. At Narjen, we take pride in hand crafting VR experiences which transport people to places that are intimate yet respectful. These are experiences that leave lasting impressions with a focus on being bold and thoughtful.</p>
+                </div>                  
+            </div>
+        </div>
+    </section>
+
+	<!-- Content 2 -->
+     <section class="content content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h2 class="section-header">Digital Focus</h2>
+                	<p class="lead text-light">The cornerstone of Narjen in regards to digital media is our work with virtual reality. Our beliefs are that, outside of experientials, virtual reality bridges a sensory “gap” that has been lacking in the realm of digital media for decades.</p>
+                </div>    
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle center-block" src="images/iphone.jpg" alt="">
+                </div>            
+                
+            </div>
+        </div>
+    </section>    
+
+	<!-- Content 3 -->
+     <section class="content content-3">
+        <div class="container">
+			<h2 class="section-header"><span class="glyphicon glyphicon-pushpin text-primary"></span><br>Experience</h2>
+			<p class="lead text-muted">Experience our virtual campaign from wired gallery</p> 
+                    <a href="experience.html" class="btn btn-primary btn-lg">Check Now</a>               
+            </div>
+        </div>
+    </section>
+    
+	<!-- Footer -->
+    <footer class="page-footer">
+    
+    	<!-- Contact Us -->
+        <div class="contact">
+        	<div class="container">
+				<h2 class="section-heading">Contact Us</h2>
+				<p><span class="glyphicon glyphicon-earphone"></span><br> +1 (123) 456-7890</p>
+				<p><span class="glyphicon glyphicon-envelope"></span><br> info@narjen.com</p>
+        	</div>
+        </div>
+        	
+        <!-- Copyright etc -->
+        <div class="small-print">
+        	<div class="container">
+        		<p>Copyright &copy; Narjin.com 2020</p>
+        	</div>
+        </div>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
